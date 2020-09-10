@@ -1,6 +1,6 @@
 module "namespace-ops-role" {
   source            = "MagusDevOps/namespace-ops-role/aws"
-  version           = "0.1.2"
+  version           = "0.1.4"
   account_id        = "${var.account_id}"
   namespace_tag_key = "${var.namespace_tag_key}"
   namespace         = "${var.namespace}"
@@ -12,7 +12,7 @@ module "namespace-ops-role" {
 
 module "namesspace-technical-role" {
   source            = "MagusDevOps/namespace-technical-role/aws"
-  version           = "0.1.2"
+  version           = "0.1.4"
   account_id        = "${var.account_id}"
   namespace_tag_key = "${var.namespace_tag_key}"
   namespace         = "${var.namespace}"
@@ -24,7 +24,7 @@ module "namesspace-technical-role" {
 
 module "namespace-read-role" {
   source            = "MagusDevOps/namespace-read-role/aws"
-  version           = "0.1.1"
+  version           = "0.1.4"
   account_id        = "${var.account_id}"
   namespace_tag_key = "${var.namespace_tag_key}"
   namespace         = "${var.namespace}"
