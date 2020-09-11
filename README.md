@@ -91,9 +91,16 @@ The following outputs are exported:
 
 ### ops\_group\_name
 
+### ops\_role\_name
+
 ### read\_group\_name
+
+### read\_role\_name
 
 ### service\_role\_arn
 
+### service\_role\_name
+
 ### technical\_group\_name
 
+### technical\_role\_name
