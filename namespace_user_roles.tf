@@ -30,5 +30,6 @@ module "namespace-read-role" {
   namespace         = "${var.namespace}"
   prefix_tag_key    = "${var.prefix_tag_key}"
   prefix            = "${var.prefix}"
+  cidr_restrictions = "${var.cidr_restrictions}"
   additional_tags   = "${var.additional_tags}"
 }
