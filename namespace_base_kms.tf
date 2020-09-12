@@ -1,6 +1,6 @@
 module "namespace-kms-base" {
   source            = "MagusDevOps/namespace-kms-base/aws"
-  version           = "0.1.6"
+  version           = "0.1.7"
   namespace_tag_key = "${var.namespace_tag_key}"
   namespace         = "${var.namespace}"
   prefix_tag_key    = "${var.prefix_tag_key}"
