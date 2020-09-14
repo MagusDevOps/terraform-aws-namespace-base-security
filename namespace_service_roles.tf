@@ -1,6 +1,6 @@
 module "namespace-service-role" {
   source            = "MagusDevOps/namespace-service-role/aws"
-  version           = "0.1.10"
+  version           = "0.1.11"
   account_id        = "${var.account_id}"
   namespace_tag_key = "${var.namespace_tag_key}"
   namespace         = "${var.namespace}"
